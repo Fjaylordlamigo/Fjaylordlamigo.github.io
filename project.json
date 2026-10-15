@@ -1,0 +1,26 @@
+[
+    {
+        "title": "My First Website",
+        "description": "Simple personal homepage I built using only HTML and CSS. It was my very first project!",
+        "technologies": "HTML, CSS",
+        "role": "Solo Developer",
+        "screenshot": "",
+        "githubLink": ""
+    },
+    {
+        "title": "Student Profile Page",
+        "description": "A page that shows my personal info, education background, skills, and hobbies.",
+        "technologies": "HTML, CSS, JavaScript",
+        "role": "Design & Development",
+        "screenshot": "",
+        "githubLink": ""
+    },
+    {
+        "title": "Simple Calculator",
+        "description": "A basic calculator that can do addition, subtraction, multiplication, and division.",
+        "technologies": "HTML, CSS, JavaScript",
+        "role": "Solo Developer",
+        "screenshot": "",
+        "githubLink": ""
+    }
+]
