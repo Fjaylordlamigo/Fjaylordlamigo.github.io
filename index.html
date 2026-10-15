@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle">🌙 Theme</button>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h1>Hello, I'm <span id="owner-name">John Doe</span></h1>
+        <p class="tagline">Passionate Web Developer building modern digital experiences.</p>
+        <p>Welcome to my professional portfolio website.</p>
+        <a href="#projects" class="btn">View My Projects</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p><strong>Brief Biography:</strong> I am an aspiring developer dedicated to clean code and responsive design.</p>
+        <p><strong>Education:</strong> B.S. in Information Technology, University of Example (Expected: 2027)</p>
+        <p><strong>Career Goals:</strong> To build impactful web applications and grow as a full-stack developer.</p>
+        <p><strong>Interests:</strong> Open source, UI/UX design, and mobile tech.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Technical Skills:</strong> Web Development, Responsive Design, API Integration</li>
+            <li><strong>Programming Languages:</strong> HTML5, CSS3, JavaScript</li>
+            <li><strong>Tools & Technologies:</strong> Git, GitHub, VS Code</li>
+            <li><strong>Soft Skills:</strong> Problem Solving, Communication, Teamwork</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div id="project-container" class="grid-container">
+            <!-- Dynamically loaded projects from JSON will appear here -->
+        </div>
+        <div id="error-message" class="error" style="display: none;">Could not load projects at this time.</div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="form-feedback" style="margin-top: 10px;"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
