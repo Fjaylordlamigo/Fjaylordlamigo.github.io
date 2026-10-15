@@ -1,26 +1,23 @@
 [
     {
         "title": "My First Website",
-        "description": "Simple personal homepage I built using only HTML and CSS. It was my very first project!",
+        "description": "Simple personal homepage built with HTML and CSS — my very first web project!",
         "technologies": "HTML, CSS",
         "role": "Solo Developer",
-        
-        "githubLink": "https://github.com/Fjaylordlamigo/Fjaylordlamigo.github.io/"
+        "githubLink": ""
     },
     {
         "title": "Student Profile Page",
-        "description": "A page that shows my personal info, education background, skills, and hobbies.",
+        "description": "Responsive portfolio page showcasing my skills, education, and projects.",
         "technologies": "HTML, CSS, JavaScript",
         "role": "Design & Development",
-        
-        "githubLink": "https://github.com/Fjaylordlamigo/Fjaylordlamigo.github.io/"
+        "githubLink": ""
     },
     {
         "title": "Simple Calculator",
-        "description": "A basic calculator that can do addition, subtraction, multiplication, and division.",
+        "description": "Interactive calculator app with basic arithmetic operations.",
         "technologies": "HTML, CSS, JavaScript",
         "role": "Solo Developer",
-        
-        "githubLink": "https://github.com/Fjaylordlamigo/Fjaylordlamigo.github.io/"
+        "githubLink": ""
     }
 ]
