@@ -3,46 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>F Jay Lord Lamigo - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+    <nav class="navbar">
+        <span class="logo">FJL</span>
+        <div class="nav-links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+        </div>
     </nav>
 
-    <section id="home" class="hero">
-        <img src="https://via.placeholder.com/150" alt="Profile Photo">
-        <h1>Hi, I'm Your Name! 👋</h1>
-        <p>Student • Aspiring Developer • Creative Thinker</p>
+    <section id="home" class="home">
+        <div class="home-content">
+            <img src="profile.jpg" alt="F Jay Lord Lamigo" class="profile-pic">
+            <h1>Hi, I'm <span>F Jay Lord Lamigo</span> 👋</h1>
+            <p class="tagline">BS Information Technology Student • Aspiring Developer</p>
+            <p class="intro">Welcome to my portfolio! I'm a college student at NVSU Bambang learning web development. Thanks for stopping by! 😊</p>
+            <a href="#projects" class="btn">View My Projects 🚀</a>
+        </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="about">
         <h2>About Me</h2>
-        <p>I'm a college student from Philippines 🇵🇭 studying Applied Arts. I love coding, designing, and learning new things!</p>
+        <p><strong>Education:</strong> Nueva Vizcaya State University — Bambang Campus</p>
+        <p><strong>Program:</strong> Bachelor of Science in Information Technology</p>
+        <p><strong>Expected Graduation:</strong> 202X</p>
+        <p>I'm a student from the Philippines 🇵🇭 passionate about building websites and learning new technologies. I'm hardworking, eager to learn, and excited to start my journey in tech!</p>
+        <p><strong>Interests:</strong> Coding, Web Design, Learning new things ✨</p>
     </section>
 
-    <section id="projects">
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>💻 Technical Skills</h3>
+                <p>HTML5, CSS3, JavaScript Basics</p>
+            </div>
+            <div class="skill-card">
+                <h3>🛠️ Tools</h3>
+                <p>VS Code, Git, GitHub</p>
+            </div>
+            <div class="skill-card">
+                <h3>🎨 Design</h3>
+                <p>Canva, Basic UI Design</p>
+            </div>
+            <div class="skill-card">
+                <h3>🤝 Soft Skills</h3>
+                <p>Communication, Teamwork, Fast Learner</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
         <h2>My Projects 📂</h2>
-        <div id="project-list">Loading projects...</div>
-        <h3>My GitHub Repos 🐙</h3>
-        <div id="repo-list">Loading...</div>
+        <h3>School Projects</h3>
+        <div id="projects-container">
+            <p>Loading projects...</p>
+        </div>
+
+        <h3>🐙 My Latest GitHub Repositories</h3>
+        <div id="repos-container">
+            <p>Loading repositories...</p>
+        </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="contact">
         <h2>Contact Me ✉️</h2>
-        <form id="contactForm">
+        <div class="contact-info">
+            <p>📧 Email: fjay.lamigo@email.com</p>
+            <p>🏫 School: Nueva Vizcaya State University — Bambang Campus</p>
+            <p>🐙 GitHub: <a href="https://github.com/Fjaylordlamigo" target="_blank">github.com/Fjaylordlamigo</a></p>
+        </div>
+        <form id="contact-form" class="contact-form">
             <input type="text" id="name" placeholder="Your Name" required>
             <input type="email" id="email" placeholder="Your Email" required>
             <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-            <p id="formMsg"></p>
+            <button type="submit" class="btn">Send Message</button>
+            <p id="form-message" class="form-message"></p>
         </form>
     </section>
 
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2026 F Jay Lord Lamigo | BSIT — NVSU Bambang 💙</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
