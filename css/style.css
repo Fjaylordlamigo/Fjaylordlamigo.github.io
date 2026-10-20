@@ -1,13 +1,15 @@
 .home-content {
   display: flex;
   align-items: center;
-  gap: 30px;
+  justify-content: flex-start;
+  gap: 25px;
   flex-wrap: wrap;
+  text-align: left;
 }
 
 .profile-pic {
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #4facfe;
@@ -16,8 +18,9 @@
 
 .home-text {
   flex: 1;
-  min-width: 280px;
+  min-width: 250px;
 }
+
 
 :root {
     --bg-color: #0b1329; /* Dark Blue Background */
